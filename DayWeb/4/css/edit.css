@@ -1,0 +1,262 @@
+hr{
+	width: 350px;
+	border-bottom: 2px solid;
+	
+}
+.picik{
+	text-transform: uppercase;
+	border-radius: 40px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 3);
+}
+
+.text1{
+  text-indent: 20px;
+} 
+		/*All versi*/
+
+
+			/*navbar*/
+
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+
+
+
+.navbar-brand {
+	font-family: "Showcard Gothic";
+	color: #000000 !important;
+	font-size: 32px;
+}
+
+
+
+			/*jumbutron*/
+
+
+
+.jumbotron {
+	background-image: url(1.jpg);
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	position: relative;
+}
+
+.jumbotron .container{
+	z-index: 1;
+	position: relative;
+}
+
+
+
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 70%;
+	background-image: linear-gradient(to top, rgb(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+
+
+
+	/*
+	.navbar-brand, .nav-link{
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	}*/
+ 
+.jumbotron .display-4 {
+
+	margin-top: 0;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	font-size: 40;
+	margin-bottom: 30px;
+}
+.jumbotron .display-4 span {
+	font-weight: 500;
+}
+
+
+
+	/*info*/
+
+.info-panel{
+
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+	border-radius: 12px;
+	margin-top: -100px;
+	background-color: white;
+	padding: 30px;
+}
+
+.info-panel img{
+	width: 80px;
+	height: 80px;
+
+}
+
+
+.info-panel h4{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.info-panel p{
+	font-size: 14px;
+	margin-top: -5px;
+	color: #acacac;
+	font-weight: 200;
+	text-align: text-justify;
+
+}
+
+
+
+		/*tempat*/
+
+
+.workingspace{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#tempat h1{
+	
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8.5px;
+	margin-top: 60px;
+}
+
+.workingspace h3{
+/*	margin-top: 70px;*/
+	font-size: 52px;
+	font-weight: 200;
+	margin-top: 30px;
+}
+
+.workingspace p {
+	font-size: 18px;
+	color: #acacac;
+	font-weight: 200;
+	margin: 20px;
+}
+
+.workingspace img{
+	margin-top: 30px
+}
+
+
+.workingspace .img-thumbnail {
+
+	box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+/*	background-color: #909090;*/
+}
+
+
+
+
+	/*iklan*/
+
+
+.bawah{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.bawah img{
+	margin-top: 30px;
+}
+
+
+.kontak h1{
+	margin-top: 40px;
+}
+
+.kontak .head{
+	margin-top: 20px;
+
+}
+
+
+	/*kontak*/
+
+
+#contact{
+  background-color: #102128;
+  margin-top: 79px;
+  color: white;
+}
+
+#contact .container{
+  width: 100%;
+  padding: 55px;
+}
+
+#icon{
+  color: white;
+  font-size:37px;
+  margin-top:20px;
+  position:static;
+}
+
+#icon i.fa.fa-instagram{
+  margin-left:17px;
+}
+
+
+
+
+footer{
+	margin-top: -20px;
+	padding: 15px 0;
+	background: #949ba1;
+	color: #19485D;
+	font-weight: 500; 
+}
+
+ /*untuk latop*/
+
+@media (min-width: 992px) {  
+
+	.workingspace {
+		text-align: left !important;
+	}
+	.navbar-brand .nav-link {
+
+	margin-right: 30px;
+	color:  !important;
+
+	}
+	.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #ffffff;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8.5px;
+
+	}
+		.jumbotron{
+			margin-top: -75px;
+			height: 620px !important ;
+
+		}
+	.jumbotron .display-4 {
+		margin-top: 250px !important;
+		margin-top: 80px;
+		font-size: 62;
+
+	}
+
+
+
+}
+
